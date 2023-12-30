@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Roboto+Condensed:wght@300&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@200;300;400;600&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Merriweather:wght@300&display=swap');
+
+:root {
+  --main-color: #972a2a;
+  --secondary-color: #9e7979;
+  --bg-color: #141414;
+  --border-bottom: #343434;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  transition: all 0.2s linear;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  overflow-x: hidden;
+  /*font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;*/
+  background: var(--bg-color);
+}
+
+
+section {
+  padding: 4rem 9%;
+}
+
+
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+    /*overflow: hidden;*/
+  }
+}
+
+/* Scroll bar */
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color); /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-color); /* Thumb color */
+  border-radius: 6px;
+}
+
+/* For Firefox */
+/* Firefox 64 and earlier */
+scrollbar {
+  width: 12px;
+}
+
+scrollbar-track {
+  background: var(--bg-color); /* Track color */
+}
+
+scrollbar-thumb {
+  background: var(--main-color); /* Thumb color */
+  border-radius: 6px;
+}
+

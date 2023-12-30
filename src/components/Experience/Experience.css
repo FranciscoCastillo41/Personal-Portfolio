@@ -1,0 +1,97 @@
+.experience h1 {
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #9e7979;
+}
+
+.experience-item {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid #343434;
+}
+
+.experience-item .date {
+    color: #464646;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+}
+
+.experience-item h3 {
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Merriweather', serif; 
+    font-size: 2rem;
+}
+
+.experience-item p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    font-family: 'Merriweather', serif; 
+    font-size: 1.5rem;
+}
+
+.experience-item .company {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--main-color);
+    font-family: 'Carattere', cursive;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .experience-item {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .experience h1 {
+        font-size: 4rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #9e7979;
+    }
+    
+    .experience-item {
+        margin-bottom: 2rem;
+        border-bottom: 1px solid #343434;
+    }
+    
+    .experience-item .date {
+        color: #464646;
+        font-family: 'Merriweather', serif;
+        font-size: 0.7rem;
+    }
+    
+    .experience-item h3 {
+        margin-bottom: 3px;
+        color: white;
+        font-family: 'Merriweather', serif; 
+        font-size: 1.5rem;
+    }
+    
+    .experience-item p {
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+        color: whitesmoke;
+        font-family: 'Merriweather', serif; 
+        font-size: 1rem;
+    }
+    
+    .experience-item .company {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        color: var(--main-color);
+        font-family: 'Carattere', cursive;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    
+}
+  
+  
+  

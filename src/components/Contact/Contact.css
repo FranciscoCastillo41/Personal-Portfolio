@@ -1,0 +1,75 @@
+.contact h1{
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: var(--secondary-color);
+  }
+  
+  .contact p {
+    font-family: 'Carattere', cursive;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact {
+      background: var(--bg-color);
+      background-size: cover !important;
+      background-position: center !important;
+      color: white;
+      min-height: 20vh;
+  }
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Carattere', cursive;
+      font-family: 'Merriweather', serif;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--border-bottom);
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    color: whitesmoke;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    background-color: var(--bg-color);
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    border: solid white;
+    border-width: 1px;
+    cursor: pointer;
+    font-family: 'Carattere', cursive;
+  }
+  
+  .submit-btn:hover {
+    color: white;
+    background-color: var(--main-color);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .contact-form {
+        width: 100%;
+        padding: 0 20px;
+    }
+  }
