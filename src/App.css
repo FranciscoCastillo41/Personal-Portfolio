@@ -17,6 +17,7 @@
   box-sizing: border-box;
   text-decoration: none;
   outline: none;
+  border: none;
   transition: all 0.2s linear;
 }
 
@@ -24,23 +25,19 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
   overflow-x: hidden;
-  /*font-family: 'Nunito', sans-serif;
-  font-family: 'Roboto Condensed', sans-serif;*/
   background: var(--bg-color);
 }
-
 
 section {
   padding: 4rem 9%;
 }
 
-
-
 @media (max-width: 450px) {
+  
   html {
     font-size: 55%;
-    /*overflow: hidden;*/
   }
+ 
 }
 
 /* Scroll bar */
