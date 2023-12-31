@@ -29,7 +29,7 @@
   .skills h1 {
     font-size: 5rem;
     font-family: 'Bebas Neue', cursive;
-    color: #9e7979;
+    color: var(--secondary-color);
       
   }
   
